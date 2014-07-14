@@ -14,13 +14,10 @@ namespace InClassJuly14_William_OSullivan
             List<Person> people = new List<Person> { };
             string[] array = new string[] { "1", "2", "3", "4" };
             Dictionary<string, Person> map = new Dictionary<string, Person>();
-
             foreach (string i in array)
             {
                 map[i] = new Person();
                 people.Add(map[i]);
-                Console.WriteLine(map[i]);
-                Console.ReadLine();
             }
         }
     }
